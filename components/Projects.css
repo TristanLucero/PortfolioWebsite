@@ -1,0 +1,17 @@
+.main-background {
+    background: #ddd6f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Set height of body and the document to 100% to enable "full page tabs" */
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+  }
