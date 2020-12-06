@@ -1,0 +1,115 @@
+
+
+.main-background {
+  background: #ddd6f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  overflow-x: hidden;
+}
+
+/* Style tab links */
+.tablink {
+  background: rgba(0, 0, 0, 0); /* Green background */
+  border: 0px solid pink; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.tablink:hover {
+  background-color: pink;
+}
+
+.button-group {
+  text-align: left;
+  width: 5em;
+}
+
+.buttons-images {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  font-size: 16px;
+  color: black;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 60px;
+}
+
+.buttons-images:hover .topbutton-text{
+  visibility: visible;
+}
+
+.big-text {
+  font-family: Yessica-Regular;
+  text-align: left;
+  opacity: .7;
+  margin-left: 300px;
+  margin-top: 3em;
+  font-size: 1.8em;
+  float: left;
+  overflow-wrap: break-word;
+}
+
+.hello-text {
+  /*margin-right: 100%;*/
+  font-size: 3.5vw;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  
+}
+
+.paragraph-text {
+  font-size: 2.0vw;
+  overflow-wrap: break-word;
+}
+
+.contact-info {
+  font-size: 1vw;
+  overflow-wrap: break-word;
+}
+
+.experience-panel {
+  font-family: Yessica-Regular;
+  opacity: .7;
+  margin-left: 30%;
+  margin-top: 260px;
+}
+
+.projects-text {
+  margin-left: 10%;
+}
+
+.topbutton-text {
+  visibility: hidden;
+}
+
+.footer-text {
+  font-family: Yessica-Regular;
+  opacity: .6;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.project1-img {
+  width: 300px;
+  height: 169px;
+  border:2px solid #fff;
+  filter: drop-shadow(5px 5px 5px #222);
+  float: right;
+  margin-right: 10vw;
+}
